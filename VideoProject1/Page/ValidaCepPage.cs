@@ -6,7 +6,7 @@ namespace VideoProject.Page
     {
         public void PreencheCep()
         {
-            EscreveTexto("//*[@id='endereco']", "30492040");
+            EscreveTexto("//*[@id='endereco']", "46600000");
         }
 
         public void ClicaBtnBusca()
@@ -16,7 +16,7 @@ namespace VideoProject.Page
 
         public void ValidaResultado()
         {
-            ValidaDados("//*[@id=\'resultado-DNEC\']/tbody/tr/td[1]", "Rua Ernani Agricola");
+            ValidaDados("//*[@id=\"resultado-DNEC\"]/tbody/tr/td[3]", "Tanhaçu/BA");
         }
     }
 }
